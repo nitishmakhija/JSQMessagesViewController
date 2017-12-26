@@ -77,5 +77,10 @@
 #import "UIImage+JSQMessages.h"
 #import "UIView+JSQMessages.h"
 #import "NSBundle+JSQMessages.h"
+#import "UIImage+PDF.h"
+#import "NSString+MD5.h"
+#import "NSData+MD5.h"
+
+
 
 #endif

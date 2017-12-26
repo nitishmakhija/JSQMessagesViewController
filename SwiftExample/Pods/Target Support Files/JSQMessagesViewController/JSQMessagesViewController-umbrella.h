@@ -1,9 +1,24 @@
+#ifdef __OBJC__
 #import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
 
 #import "NSBundle+JSQMessages.h"
+#import "NSData+MD5.h"
 #import "NSString+JSQMessages.h"
+#import "NSString+MD5.h"
+#import "PDFView.h"
 #import "UIColor+JSQMessages.h"
 #import "UIImage+JSQMessages.h"
+#import "UIImage+PDF.h"
+#import "UIView+Image.h"
 #import "UIView+JSQMessages.h"
 #import "JSQMessagesViewController.h"
 #import "JSQMessagesAvatarImageFactory.h"
@@ -11,6 +26,7 @@
 #import "JSQMessagesMediaViewBubbleImageMasker.h"
 #import "JSQMessagesTimestampFormatter.h"
 #import "JSQMessagesToolbarButtonFactory.h"
+#import "JSQMessagesVideoThumbnailFactory.h"
 #import "JSQMessages.h"
 #import "JSQAudioMediaViewAttributes.h"
 #import "JSQMessagesBubbleSizeCalculating.h"

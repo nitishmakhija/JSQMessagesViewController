@@ -4,10 +4,14 @@
  use_frameworks!
 
 target 'SwiftExample' do
-pod 'JSQMessagesViewController', :path => '../'
+    
+    pod 'JSQMessagesViewController', :path => '../'
+    pod 'Alamofire'
 
 end
 
 target 'SwiftExampleTests' do
-pod 'JSQMessagesViewController', :path => '../'
+    
+    pod 'JSQMessagesViewController', :path => '../'
+    
 end

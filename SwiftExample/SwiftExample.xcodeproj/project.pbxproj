@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		261E04FA1F02980700753A75 /* YinYang.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 261E04F91F02980700753A75 /* YinYang.pdf */; };
 		2D4E760C6D52AC095DEF0A67 /* Pods_SwiftExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0DC4B7792ACC2835F9E2C4 /* Pods_SwiftExample.framework */; };
 		371B88351D42DE7000CC7271 /* InitalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371B88341D42DE7000CC7271 /* InitalTableViewController.swift */; };
 		378FC9851D43F3CD00DF0026 /* SettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378FC9841D43F3CD00DF0026 /* SettingsTests.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		261E04F91F02980700753A75 /* YinYang.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = YinYang.pdf; sourceTree = "<group>"; };
 		2A0DC4B7792ACC2835F9E2C4 /* Pods_SwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		371B88341D42DE7000CC7271 /* InitalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitalTableViewController.swift; sourceTree = "<group>"; };
 		378FC9841D43F3CD00DF0026 /* SettingsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTests.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				F82D09CB1CDFBB4900DD74CF /* LaunchScreen.storyboard */,
 				A0844FA01D38367C00D0EB83 /* jsq_messages_sample.m4a */,
 				F82D09CE1CDFBB4900DD74CF /* Info.plist */,
+				261E04F91F02980700753A75 /* YinYang.pdf */,
 			);
 			path = SwiftExample;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			files = (
 				F82D09CD1CDFBB4900DD74CF /* LaunchScreen.storyboard in Resources */,
 				A0844FA11D38367C00D0EB83 /* jsq_messages_sample.m4a in Resources */,
+				261E04FA1F02980700753A75 /* YinYang.pdf in Resources */,
 				41AF84E51CFCFE17006ED473 /* Images.xcassets in Resources */,
 				F82D09C81CDFBB4900DD74CF /* Main.storyboard in Resources */,
 			);
@@ -294,7 +298,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		87263242F5AF11CD38D2F990 /* [CP] Check Pods Manifest.lock */ = {
@@ -309,7 +313,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		DE1DEABBB7B89A8EE25C6039 /* [CP] Copy Pods Resources */ = {
